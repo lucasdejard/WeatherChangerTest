@@ -5,12 +5,14 @@ from datetime import datetime as dt
 import matplotlib.pyplot as plt
 import time
 from agoravai import tempb,tempny,templ
+# I had a problem in the API(climatempo) because it only works in Brazilian countrys and a i did not know about it kkkkk
+# So i changed all the foreign cities
 
-windows = Gtk.Window( title="Hello World")
+windows = Gtk.Window( title="Weather Cities")
 label=Gtk.Label('Weather')
 belemb=Gtk.Button('Belém,Pa')
-nyb=Gtk.Button('New York,Ny')
-londonb=Gtk.Button('City of london,London')
+nyb=Gtk.Button('São Paulo,Sp')
+londonb=Gtk.Button('Rio de Janeiro,Rj')
 
 vbox=Gtk.VBox()
 hbox=Gtk.HBox()
